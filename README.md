@@ -1,10 +1,10 @@
 <div align="center">
 
-# ⏱Chronix
+# ⏱️ Chronix
 
 ### **Precision Meets Focus**
 
-*A Premium Productivity Web Application*
+*A Modern Premium Productivity Web Application*
 
 <p>
 
@@ -17,7 +17,8 @@
 
 <p>
 
-<img src="https://img.shields.io/github/license/adityasingh475/PRODIGY_WD_02?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/adityasingh475/PRODIGY_WD_02?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/adityasingh475/PRODIGY_WD_02?style=flat-square"/>
 <img src="https://img.shields.io/github/last-commit/adityasingh475/PRODIGY_WD_02?style=flat-square"/>
 <img src="https://img.shields.io/github/repo-size/adityasingh475/PRODIGY_WD_02?style=flat-square"/>
 
@@ -29,63 +30,92 @@
 
 # 🌟 About
 
-Chronix is a modern and elegant productivity web application built using **HTML, CSS, and JavaScript**.
+**Chronix** is a premium productivity web application that combines a powerful **Stopwatch**, **Countdown Timer**, and **Pomodoro Timer** into one elegant interface.
 
-It combines a **Stopwatch**, **Countdown Timer**, and **Pomodoro Timer** into one beautiful interface designed for focus and productivity.
+Designed with modern UI principles, smooth animations, analytics, and productivity-focused features, Chronix delivers an engaging and distraction-free experience.
 
 ---
 
 # ✨ Features
 
-### ⏱ Stopwatch
+## ⏱ Stopwatch
 
-- Start / Pause
-- Reset
-- Lap Recording
-- Undo Last Lap
+- ▶️ Start / Pause
+- 🔄 Reset
+- 🏁 Lap Recording
+- ↩️ Undo Last Lap
+- 📊 Session Statistics
 
-### ⏳ Countdown Timer
+---
 
-- Hours
-- Minutes
-- Seconds
+## ⏳ Countdown Timer
+
+- Hours / Minutes / Seconds
 - Quick Presets
 - Circular Progress Ring
+- Completion Alarm
 
-### 🍅 Pomodoro
+---
+
+## 🍅 Pomodoro
 
 - Focus Session
 - Short Break
 - Long Break
-- Clean Productivity Layout
+- Beautiful Productivity Layout
 
-### 📊 Analytics
+---
 
-- Lap Analytics
-- Session Statistics
+## 📊 Analytics Dashboard
+
+- Lap Performance
 - Interactive Charts
+- Session Statistics
 
-### 📁 Session History
+---
 
-- Local Storage
+## 📁 Session History
+
+- Local Storage Support
 - Previous Sessions
 - Delete History
 
-### 📤 Export
+---
+
+## 📤 Export Options
 
 - CSV Export
 - JSON Export
-- Copy Summary
+- Copy Session Summary
 
-### 🎨 UI
+---
 
-- Glassmorphism
-- Aurora Background
-- Cursor Glow
-- Ripple Effects
-- Dark / Light Theme
-- Accent Colors
-- Responsive Design
+## 🎨 User Experience
+
+- 🌙 Dark / Light Theme
+- 🎨 Multiple Accent Colors
+- ✨ Glassmorphism Design
+- 🌌 Aurora Background
+- 🖱 Cursor Glow Effect
+- 💧 Ripple Button Animation
+- 📱 Fully Responsive
+- ⚡ Smooth Animations
+
+---
+
+# ⌨ Keyboard Shortcuts
+
+| Key | Action |
+|------|--------|
+| Space | Start / Pause |
+| L | Record Lap |
+| R | Reset |
+| U | Undo Lap |
+| C | Copy Summary |
+| E | Export CSV |
+| T | Toggle Theme |
+| M | Toggle Sound |
+| F | Fullscreen |
 
 ---
 
@@ -95,16 +125,16 @@ It combines a **Stopwatch**, **Countdown Timer**, and **Pomodoro Timer** into on
 |------------|----------|
 | HTML5 | Structure |
 | CSS3 | Styling |
-| JavaScript | Functionality |
+| JavaScript (ES6) | Functionality |
 | Chart.js | Analytics |
-| Local Storage | Session Saving |
+| Local Storage API | Session History |
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
 ```text
-Chronix
+Chronix/
 │
 ├── index.html
 ├── style.css
@@ -114,85 +144,80 @@ Chronix
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Home
+
+> Add Home Screenshot Here
+
+---
+
+## 🍅 Pomodoro
+
+> Add Pomodoro Screenshot Here
+
+---
+
+## 📊 Analytics
+
+> Add Analytics Screenshot Here
+
+---
+
 # 🚀 Getting Started
 
-Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/adityasingh475/PRODIGY_WD_02.git
 ```
 
-Go into project
+Open project
 
 ```bash
 cd PRODIGY_WD_02
 ```
 
-Open
+Run
 
 ```text
-index.html
+Open index.html in your browser.
 ```
-
----
-
-# ⌨ Keyboard Shortcuts
-
-| Key | Action |
-|------|--------|
-| Space | Start / Pause |
-| L | Lap |
-| R | Reset |
-| U | Undo Lap |
-| C | Copy Summary |
-| E | Export CSV |
-| T | Theme |
-| M | Sound |
-| F | Fullscreen |
-
----
-
-# 📸 Screenshots
-
-> Add screenshots here
-
-| Home | Pomodoro |
-|------|-----------|
-| Screenshot | Screenshot |
 
 ---
 
 # 🌍 Live Demo
 
-Coming Soon...
+🚧 Coming Soon...
 
 ---
 
 # 💡 Future Improvements
 
-- Cloud Sync
-- User Login
-- PWA Support
-- Notifications
-- Mobile App
-- Task Manager
+- ☁ Cloud Sync
+- 👤 User Accounts
+- 🔔 Notifications
+- 📱 PWA Support
+- 📅 Task Planner
+- 📈 Productivity Insights
 
 ---
 
 # 👨‍💻 Developer
 
-**Aditya Singh**
+## Aditya Singh
 
-GitHub
+### Connect with me
 
-https://github.com/adityasingh475
+- 💻 GitHub: https://github.com/adityasingh475
+- 💼 LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
 
 <div align="center">
 
-### ⭐ If you liked this project, please give it a Star ⭐
+## ⭐ If you like this project, consider giving it a Star ⭐
 
-Made with ❤️ using HTML, CSS & JavaScript
+### Made with ❤️ using HTML, CSS & JavaScript
 
 </div>
