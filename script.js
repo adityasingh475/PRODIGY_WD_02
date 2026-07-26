@@ -253,13 +253,15 @@ function onTimerFinished() {
 
     alarmSequence();
 
-    showToast("Timer finished");
+showToast("Timer finished");
 
-    saveSession();
+addToHistory();
 
-    if (state.mode === "pomodoro") {
-        nextPomodoroPhase();
-    }
+saveSession();
+
+if (state.mode === "pomodoro") {
+    nextPomodoroPhase();
+}
 }
 /* ---------- Controls ---------- */
 function startPause() {
@@ -338,24 +340,7 @@ function resetAll() {
       !window.confirm('Reset will clear the current time and all laps. Continue?')) {
     return;
   }
-  if(currentElapsed()>0){
-
-const history=loadHistory();
-
-history.unshift({
-
-time:formatFull(currentElapsed()),
-
-date:new Date().toLocaleString(),
-
-laps:state.laps.length
-
-});
-
-saveHistory(history);
-renderHistory();
-
-}
+  addToHistory();
   state.running = false;
   cancelAnimationFrame(rafId);
   state.elapsed = 0;
@@ -980,6 +965,26 @@ function saveSettings() {
       soundOn: state.soundOn
     }));
   } catch (e) {}
+}
+function addToHistory(){
+
+    if(currentElapsed() <= 0) return;
+
+    const history = loadHistory();
+
+    history.unshift({
+
+        time: formatFull(currentElapsed()),
+        date: new Date().toLocaleString(),
+        mode: state.mode,
+        laps: state.laps.length
+
+    });
+
+    saveHistory(history);
+
+    renderHistory();
+
 }
 
 function saveSession() {
