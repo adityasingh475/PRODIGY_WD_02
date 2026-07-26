@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⏱️ Chronix
+# ⏱️Chronix
 
 ### **Precision Meets Focus**
 
