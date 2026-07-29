@@ -27,6 +27,17 @@
 </div>
 
 ---
+---
+
+## 🌐 Live Demo
+
+> **🔗 https://prodigy-wd-02-wine.vercel.app/**
+
+## 💻 GitHub Repository
+
+> **🔗 https://github.com/adityasingh475/PRODIGY_WD_02**
+
+---
 
 # 🌟 About
 
@@ -144,23 +155,6 @@ Chronix/
 
 ---
 
-# 📸 Screenshots
-
-## 🏠 Home
-
-> Add Home Screenshot Here
-
----
-
-## 🍅 Pomodoro
-
-> Add Pomodoro Screenshot Here
-
----
-
-## 📊 Analytics
-
-> Add Analytics Screenshot Here
 
 ---
 
@@ -186,10 +180,6 @@ Open index.html in your browser.
 
 ---
 
-# 🌍 Live Demo
-
-🚧 Coming Soon...
-
 ---
 
 # 💡 Future Improvements
@@ -210,7 +200,7 @@ Open index.html in your browser.
 ### Connect with me
 
 - 💻 GitHub: https://github.com/adityasingh475
-- 💼 LinkedIn: *(Add your LinkedIn profile here)*
+- 💼 LinkedIn: www.linkedin.com/in/adityasingh475
 
 ---
 
