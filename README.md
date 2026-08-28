@@ -195,7 +195,7 @@ Open index.html in your browser.
 
 # 👨‍💻 Developer
 
-## Aditya Singh
+## Aditya Pratap Singh
 
 ### Connect with me
 
